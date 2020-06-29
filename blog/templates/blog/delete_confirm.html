@@ -1,0 +1,10 @@
+{% extends 'blog/base.html' %}
+{% block content %}
+{% if user.is_authenticated %}
+<div class="post">
+<h1>Are you sure you want to delete this post?</a></h1>
+<a class="btn btn-default" href="{% url 'post_delete' pk=pk %}"><span class="glyphicon glyphicon-ok"></span></a>
+<a class="btn btn-default" href="{% url 'post_detail' pk=pk %}"><span class="glyphicon glyphicon-remove"></span></a>
+</div>
+{% endif %}
+{% endblock %}
