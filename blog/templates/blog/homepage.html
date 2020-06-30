@@ -1,5 +1,9 @@
-{% extends 'blog/base.html' %}
+{% extends 'blog/homepage_base.html' %}
 {% block content %}
-<h1>Welcome to Jacob Bradford's website</h1>
-<a class="btn btn-default" href="{% url 'post_list' %}"><span>Blog</span></a>
+<h2>Welcome to the website of programmer Jacob Bradford, below are links to my blog and online CV</h2>
+<div class="button">
+<a class="button1" href="{% url 'post_list' %}"><span>Blog</span></a>          
+<a class="button2" href="{% url 'post_list' %}"><span>CV</span></a>
+</div>
+
 {% endblock %}

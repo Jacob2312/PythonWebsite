@@ -3,24 +3,18 @@
 <head>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link href='https://fonts.googleapis.com/css?family=Antic Slab' rel='stylesheet'>
 <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet'>
-<link rel="stylesheet" href="{% static 'css/blog.css' %}">
+<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
 </head>
-
 <title>
-	Jacob Bradford | Website of programmamer Jacob Bradford
+	Jacob Bradford | Website of Programmamer Jacob Bradford
 </title>
 <body>
 <div class="page-header">
-{% if user.is_authenticated %}
-<a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
-{% endif %}
-<h1><a href="{% url 'post_list' %}">&#60Jacob Bradford's Blog&#62</a></h1>
+<h1><a>Jacob Bradford's Website</a></h1>
 </div>
 <div class="content container">
-<div class="row">
-<div class="col-md-8">
 {% block content %}
 {% endblock %}
 </div>
