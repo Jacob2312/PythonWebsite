@@ -61,3 +61,8 @@ def post_delete_confirm(request, pk):
 	pk=pk
 	return render(request, 'blog/delete_confirm.html', {'pk': pk})
 
+def homepage_contact(request):
+	return render(request, 'blog/homepage_contact.html')
+
+def cv(request):
+	return render(request, 'blog/cv.html')

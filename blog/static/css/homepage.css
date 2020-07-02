@@ -31,9 +31,14 @@ font-family: 'Antic Slab';
  margin: auto;
  width: 90%;
  padding: 10px;
- background-color: #1189d9 ;
+ background-color: 	hsla(204, 85%, 46%, 0.8);
  text-align: center;
- border: 2px solid black;
+}
+
+.content h2 {
+width: 60%;
+margin: auto;
+
 }
 
 .button {
@@ -64,7 +69,11 @@ font-family: 'Antic Slab';
 	opacity: 1;
 }
 
+.content h3, .content h4 {
+	font-size: 20pt
+}
+
 body {
-background-image: url("https://cdn.pixabay.com/photo/2015/09/02/12/29/water-918461_960_720.jpg");	
+background-image: url("https://cdn.pixabay.com/photo/2015/03/30/12/37/jellyfish-698521_960_720.jpg");	
  background-size: cover
 }
