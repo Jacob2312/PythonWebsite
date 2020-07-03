@@ -1,76 +1,44 @@
 
-.page-header {
+.bio {
 background-color: #094269;
 margin-top: 0;
 float: left;
-width: 33%;
-margin: auto;
-padding: 20px 20px 20px 40px;
-border: 2px solid black;
-border-bottom: 0px solid black;
+padding: 20px 40px 20px 40px;
+margin-bottom: 100;
+}
+
+.bio h1, .bio h2, .bio h3, .bio h4, .bio img {
+	
+}
+
+.bio img {
+	border-radius: 50%;
+}
+
+.bio h1, .bio h2, .bio h3, .bio h4 {
+color: white;
+font-size: 20pt;
+}
+
+.bio h1 {
+font-size: 30pt;
+}
+
+.bottom {
+width: 100%;
+bottom: 0;
+text-align: center;
+padding: 20px 40px 20px 40px;
+background-color:  #094269;
+color: white;
+}
+
+.content {
+margin-right: 150px;	
+margin-bottom: 10px;
 }
 
 .body {
 
 }
 
-.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-color: #ffffff;
-font-size: 32pt;
-text-align: center;
-text-decoration: none;
-font-family: 'Lobster', cursive;
-}
-
-.page-header img {
-	border-radius: 50%;
-	margin: auto;
-	border: 5px solid black;
-}
-
-.content h2 {
-font-size: 30pt;
-font-family: 'Antic Slab';
-}
-
-.content {	
-
-}
-
-.content h2 {
-width: 60%;
-margin: auto;
-
-}
-
-.button {
-    display: table;
-    width: 100%;
-    table-layout: fixed;   
-}
-.button a {
-    display: table-cell;
-    text-align: center;
-}
-
-.button1, .button2 {
-	display:inline-block;
-	font-family: 'Antic Slab';
-	font-size: 30pt;	
-}
-
-.button1 span, .button1:hover, .button2 span, .button2:hover {
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.bottom {
-	text-align: center;
-	color: #AAAFB4;
-	padding-bottom: 10px;
-	opacity: 1;
-}
-
-.content h3, .content h4 {
-	font-size: 20pt
-}
