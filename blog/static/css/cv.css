@@ -3,7 +3,7 @@
 background-color: #094269;
 margin-top: 0;
 float: left;
-padding: 20px 40px 20px 40px;
+padding: 1vh 2vw 1vh 2vw;
 margin-bottom: 100;
 }
 
@@ -17,11 +17,12 @@ margin-bottom: 100;
 
 .bio h1, .bio h2, .bio h3, .bio h4 {
 color: white;
-font-size: 20pt;
+font-size: 1.5vw;
 }
 
 .bio h1 {
-font-size: 30pt;
+font-size: 3vw;
+text-align: center;
 }
 
 .bottom {
