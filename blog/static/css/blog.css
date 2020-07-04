@@ -32,9 +32,9 @@ width: 80% ;
 	text-align: center;
 }
 
-.bio image {
-	max-width: 18vw;
-	max-height: 36	vh;
+.bio img {
+	max-width: 36vw;
+	max-height: 48vh;
 }
 
 h1, h2, h3, h4 {
