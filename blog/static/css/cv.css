@@ -13,6 +13,8 @@ margin-bottom: 100;
 
 .bio img {
 	border-radius: 50%;
+	max-width: 25vw;
+	height: auto;
 }
 
 .bio h1, .bio h2, .bio h3, .bio h4 {
