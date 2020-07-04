@@ -21,15 +21,20 @@ width: 80% ;
 
 .bio {
 	float: right;
-	margin-right: 240px;
-	margin-top: 50px;
+	margin-right: 12vw;
+	margin-top: 10px;
 	margin-bottom: 30px;
 	border: 5px solid black;
 	background-color: #000000;
-	font-size: 20pt;
+	font-size: 1.5vw;
 	color: #ffffff;
 	font-family: 'Inconsolata';
 	text-align: center;
+}
+
+.bio image {
+	max-width: 25vw;
+	max-height: 50vh;
 }
 
 h1, h2, h3, h4 {
