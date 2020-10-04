@@ -11,11 +11,23 @@ margin-bottom: 100;
 	
 }
 
+.main {
+	font-size: 1.5vw;
+}
+
+.bio main {
+font-size: 10pt;	
+}
+
 .bio img {
 	border-radius: 50%;
 	max-width: 25vw;
-	
+		
 	height: auto;
+}
+
+.title {
+
 }
 
 .bio h1, .bio h2, .bio h3, .bio h4 {
@@ -28,7 +40,19 @@ font-size: 3vw;
 text-align: center;
 }
 
+h2 {
+	font-size: 1.2vw;
+}
+
 .bottom {
+width: 100%;
+bottom: 0;
+text-align: center;
+padding: 20px 40px 20px 40px;
+background-color:  #094269;
+color: white;
+}
+.top {
 width: 100%;
 bottom: 0;
 text-align: center;
@@ -40,7 +64,8 @@ color: white;
 .content {
 margin-right: 8vw;	
 margin-bottom: 10px;
-
+margin-top: 30px;
+font-size: 20px;
 }
 
 .body {
